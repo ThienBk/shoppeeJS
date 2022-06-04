@@ -1,0 +1,29 @@
+body{
+  height: 1500px;
+  background: #333;
+}
+.header{
+  background: #ee4d2d;
+}
+.header-navbar{
+  height: 34px;
+  margin: 0 74.5px;
+}
+.nav-item{
+  position: relative;
+}
+.nav-link{
+  padding: 5px 7px;
+  font-size: 13px;
+}
+.separate::before{
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 15px;
+  background: #fb9086;
+}
